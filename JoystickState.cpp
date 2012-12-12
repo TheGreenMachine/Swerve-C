@@ -1,9 +1,6 @@
 #include "JoystickState.h"
 #include "math.h"
 
-using std::pow;
-using std::atan;
-using std::sqrt;
 
 JoystickState::JoystickState(double rightX, double rightY, 
     double leftX, double leftY):
