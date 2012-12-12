@@ -2,10 +2,9 @@
 #define JOYSTICK_STATE_H
 
 struct JoystickState{
-  JoystickState(double, double, double, double);
+  JoystickState(double, double, double);
   //Polar
-  double rightTheta;
-  double rightMag;
+  double right;
   double leftTheta;
   double leftMag;
 };

@@ -3,13 +3,12 @@
 
 struct MotorState{
   double topLeftPower;
-  double topLeftDirection;
+  double topDirection;
   double topRightPower;
-  double topRightDirection;
+
   double lowerLeftPower;
-  double lowerLeftDirection;
+  double lowerDirection;
   double lowerRightPower;
-  double lowerRightDirection;
 };
 
 #endif

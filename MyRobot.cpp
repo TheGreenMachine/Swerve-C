@@ -1,13 +1,14 @@
 #include "WPILib.h"
+#include "Transformers.h"
 #include "JoystickState.h"
 #include "MotorState.h"
 
 class RobotDemo : public SimpleRobot
 {
-        Jaguar upperLeftJag;
-        Jaguar upperRightJag;
-        Jaguar lowerLeftJag;
-        Jaguar lowerRightJag;
+    Jaguar upperLeftJag;
+    Jaguar upperRightJag;
+    Jaguar lowerLeftJag;
+    Jaguar lowerRightJag;
 	Joystick stickLeft; 
 	Joystick stickRight;
 
@@ -26,7 +27,7 @@ public:
 	 */
 	void Autonomous(void)
 	{
-          //DO NOTHING
+          //MORE MAGIC
 	}
 
 	/**
@@ -36,8 +37,8 @@ public:
 	{
 		while (IsOperatorControl())
 		{
-                  //Magic
-                  Wait(0.005);				// wait for a motor update time
+              //Magic
+              Wait(0.005);				// wait for a motor update time
 		}
 	}
 };
